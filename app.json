@@ -1,0 +1,78 @@
+{
+    "name": "VideoConvertor",
+    "description": "A stable and Fast telegram video convertor bot which can compress, convert(video into audio and other video formats), rename and trim.",
+    "logo": "",
+    "keywords": [
+        "Best",
+        "telegram",
+        "compressor",
+        "bot"
+    ],
+    "repository": "https://github.com/Shinigamibots5/VIDEOconvertor",
+    "website": "",
+    "success_url": "https://t.me/Bae_wafaaa",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": "6b73197f50512e26f5ebd42e73c3315f"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": "1945966"
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "5170301552:AAGQvSED9eQhe6YHzEg3PyjHDZtnMZqq4eE"
+        },
+        "AUTH_USERS": {
+            "description": "Bot owner's UserID.",
+            "value": "5143506371"
+        },
+        "HEROKU_API": {
+            "description": "Your heroku app name(optional, add only if you want to restart directly from tg.",
+            "value": "",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Your heroku api, you can get it from heroku account settings(optional, add only if you want to restart directly from tg.",
+            "value": "",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Log channel username, without using '@'.",
+            "value": "linux_rep0"
+        },
+        "LOG_ID": {
+            "description": "Log channel `ID` (Should be Public)",
+            "value": "-1001702681627"
+        },
+        "ACCESS_CHANNEL": {
+            "description": "Private group id to spy users.(Should be public group)",
+            "value": "-1001707154332"
+        },
+        "MONGODB_URI": {
+            "description": "Your mongodb url here.",
+            "value": "mongodb+srv://ticel98214:asdfggjkl@cluster0.hm6jsk4.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "FORCESUB": {
+            "description": "Channel id to which u want user be force subcribed.(Should be public)",
+            "value": "-1001163244391"
+        },
+        "FORCESUB_UN": {
+            "description": "Forcesub channel's username.",
+            "value": "akimaxmovies"
+        },
+        "BOT_UN": {
+            "description": "Username of your bot.",
+            "value": "wetdudubot"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
