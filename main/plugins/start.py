@@ -10,7 +10,7 @@
 #  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #  General Public License for more details.
 #
-#  License can be found in < https://github.com/vasusen-code/VIDEOconvertor/blob/public/LICENSE> .
+#  License can be found in < https://github.com/Shinigamibots5/VIDEOconvertor/blob/public/LICENSE> .
 
 from telethon import events, Button
 from ethon.teleutils import mention
